@@ -1,0 +1,590 @@
+.Graphic {
+  height: 100vh;
+  background-color: #14171a;
+
+  .container {
+    height: 100vh;
+    // Layout
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    margin: 0 100px;
+    padding: 0;
+    .container-img {
+      align-content: center;
+
+      // Layout
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto 80px;
+
+      .title1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1 {
+          font-size: 35px;
+          font-weight: 600;
+          color: white;
+          text-shadow: 0px 0px 8px #01aaff;
+        }
+      }
+
+      .img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          max-width: 28rem;
+          width: 100%;
+          opacity: 0.6;
+        }
+      }
+      .title2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1 {
+          font-size: 20px;
+          font-weight: 600;
+          color: white;
+          text-shadow: 0px 0px 8px #01aaff;
+        }
+      }
+
+      .technology {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        .icon1 {
+          width: 40px;
+          transition: width 300ms ease;
+        }
+
+        .icon1:hover {
+          width: 60px;
+        }
+        .icon2 {
+          width: 40px;
+          transition: width 300ms ease;
+        }
+
+        .icon2:hover {
+          width: 60px;
+        }
+        .icon3 {
+          width: 35px;
+          transition: width 300ms ease;
+        }
+
+        .icon3:hover {
+          width: 50px;
+        }
+        .icon4 {
+          width: 40px;
+          transition: width 300ms ease;
+        }
+
+        .icon4:hover {
+          width: 60px;
+        }
+      }
+    }
+
+    .container-project {
+      align-content: center;
+      justify-content: center;
+
+      // Layout
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 470px 50px;
+
+      .button {
+        align-content: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        gap: 20px;
+
+        .bottom1 {
+          opacity: 0.5;
+          transition: all 300ms ease;
+
+          // LAYOUT
+          display: grid;
+          grid-template-rows: 1fr 40px;
+          .img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+              max-width: 110px;
+              width: 100%;
+            }
+          }
+
+          .name {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              font-weight: 600;
+              font-size: 19px;
+              color: white;
+            }
+          }
+        }
+
+        .bottom1:hover {
+          opacity: 1;
+          transform: scale(1.2);
+        }
+
+        .bottom2 {
+          transition: all 300ms ease;
+          opacity: 0.5;
+
+          // LAYOUT
+          display: grid;
+          grid-template-rows: 1fr 40px;
+
+          .img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+              max-height: 140px;
+              max-width: 150px;
+              width: 100%;
+            }
+          }
+
+          .name {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              text-align: center;
+              font-weight: 500;
+              font-size: 19px;
+              color: white;
+            }
+          }
+        }
+
+        .bottom2:hover {
+          opacity: 1;
+          transform: scale(1.2);
+        }
+        .bottom3 {
+          transition: all 300ms ease;
+          opacity: 0.5;
+
+          // LAYOUT
+          display: grid;
+          grid-template-rows: 1fr 40px;
+
+          .img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+              max-height: 140px;
+              max-width: 150px;
+              width: 100%;
+            }
+          }
+
+          .name {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              font-weight: 500;
+              font-size: 18px;
+              color: white;
+            }
+          }
+        }
+
+        .bottom3:hover {
+          opacity: 1;
+          transform: scale(1.2);
+        }
+        .bottom4 {
+          transition: all 300ms ease;
+          opacity: 0.5;
+
+          // LAYOUT
+          display: grid;
+          grid-template-rows: 1fr 40px;
+
+          .img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+              max-height: 140px;
+              max-width: 170px;
+              width: 100%;
+            }
+          }
+
+          .name {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+              font-weight: 500;
+              font-size: 18px;
+              color: white;
+            }
+          }
+        }
+
+        .bottom4:hover {
+          opacity: 1;
+          transform: scale(1.2);
+        }
+      }
+
+      .pag {
+        p {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+        }
+      }
+    }
+  }
+
+  // Desktop-Laptop
+
+  @media (max-width: 1200px) {
+  }
+
+  // Tablet
+
+  @media (max-width: 992px) {
+    .container-img {
+      .title1 {
+        h1 {
+          text-align: center;
+          font-size: 30px !important;
+        }
+      }
+
+      .img {
+        img {
+          max-width: 20rem !important;
+        }
+      }
+      .title2 {
+        h1 {
+          font-size: 1rem !important;
+        }
+      }
+
+      .technology {
+        .icon1 {
+          width: 35px;
+        }
+
+        .icon1:hover {
+          width: 50px;
+        }
+        .icon2 {
+          width: 35px;
+        }
+
+        .icon2:hover {
+          width: 50px;
+        }
+        .icon3 {
+          width: 35px;
+        }
+
+        .icon3:hover {
+          width: 50px;
+        }
+        .icon4 {
+          width: 35px;
+        }
+
+        .icon4:hover {
+          width: 50px;
+        }
+      }
+    }
+
+    .container-project {
+      // Layout
+      grid-template-rows: 390px 30px;
+      .button {
+        .bottom1 {
+          .name {
+            p {
+              font-size: 15px;
+            }
+          }
+        }
+
+        .bottom2 {
+          .name {
+            p {
+              font-size: 15px;
+            }
+          }
+        }
+
+        .bottom3 {
+          .name {
+            p {
+              font-size: 15px;
+            }
+          }
+        }
+
+        .bottom4 {
+          .name {
+            p {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      .pag {
+        p {
+          font-size: 13px;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  // Large-Cellphone
+
+  @media (max-width: 768px) {
+    .container {
+      margin: 0 50px;
+      align-content: center;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-rows: 80px auto;
+      row-gap: 15px;
+      .container-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-row: 1/2;
+        .title1 {
+          h1 {
+            text-align: center;
+            font-size: 30px !important;
+          }
+        }
+
+        .img {
+          img {
+            display: none;
+          }
+        }
+        .title2 {
+          h1 {
+            display: none;
+          }
+        }
+
+        .technology {
+          display: none;
+          .icon1 {
+            width: 35px;
+          }
+
+          .icon1:hover {
+            width: 50px;
+          }
+          .icon2 {
+            width: 35px;
+          }
+
+          .icon2:hover {
+            width: 50px;
+          }
+          .icon3 {
+            width: 35px;
+          }
+
+          .icon3:hover {
+            width: 50px;
+          }
+          .icon4 {
+            width: 35px;
+          }
+
+          .icon4:hover {
+            width: 50px;
+          }
+        }
+      }
+
+      .container-project {
+        grid-row: 2/3;
+        // Layout
+        grid-template-rows: 390px 40px;
+        .button {
+          .bottom1 {
+            .name {
+              p {
+                font-size: 15px;
+              }
+            }
+          }
+
+          .bottom2 {
+            .name {
+              p {
+                font-size: 15px;
+              }
+            }
+          }
+
+          .bottom3 {
+            .name {
+              p {
+                font-size: 15px;
+              }
+            }
+          }
+
+          .bottom4 {
+            .name {
+              p {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+
+        .pag {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          p {
+            font-size: 13px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+  // Small-Cellphone
+
+  @media (max-width: 567px) {
+    .container {
+      .container-img {
+        .title1 {
+          h1 {
+          }
+        }
+
+        .img {
+          img {
+            display: none;
+          }
+        }
+        .title2 {
+          h1 {
+            display: none;
+          }
+        }
+
+        .technology {
+          display: none;
+          .icon1 {
+            width: 35px;
+          }
+
+          .icon1:hover {
+            width: 50px;
+          }
+          .icon2 {
+            width: 35px;
+          }
+
+          .icon2:hover {
+            width: 50px;
+          }
+          .icon3 {
+            width: 35px;
+          }
+
+          .icon3:hover {
+            width: 50px;
+          }
+          .icon4 {
+            width: 35px;
+          }
+
+          .icon4:hover {
+            width: 50px;
+          }
+        }
+      }
+
+      .container-project {
+        // Layout
+
+        .button {
+          .bottom1 {
+            .name {
+              p {
+                font-size: 15px;
+              }
+            }
+          }
+
+          .bottom2 {
+            .name {
+              p {
+                font-size: 15px;
+              }
+            }
+          }
+
+          .bottom3 {
+            .name {
+              p {
+                font-size: 15px;
+              }
+            }
+          }
+
+          .bottom4 {
+            .name {
+              p {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+
+        .pag {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          p {
+            font-size: 13px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+.header {
+  position: fixed;
+  background-color: rgba(20, 23, 26, 0.4666666667);
+  width: 100%;
+  height: 70px;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .menu-icon {
+  display: none;
+}
+.header .logoDiv {
+  margin-left: 100px;
+}
+.header .logoDiv a h1 {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+.header .logoDiv a h1 span {
+  color: #00a8ff;
+}
+.header .navBar {
+  margin-right: 100px;
+}
+.header .navBar .navLists li {
+  display: flex;
+  align-items: center;
+}
+.header .navBar .navLists li a {
+  font-size: 17px;
+  color: white;
+  margin: 15px;
+}
+.header .navBar .navLists li a::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #00a8ff;
+  border-radius: 10px;
+  transform: scale(0, 1);
+  transition: transform 200ms ease-in;
+}
+.header .navBar .navLists li a:hover::after {
+  transform: scale(1, 1);
+}
+@media (max-width: 992px) {
+  .header .menu-icon {
+    display: block;
+    font-size: 30px;
+    margin-right: 100px;
+    color: white;
+  }
+  .header .navBar.show {
+    transform: scale(1, 1);
+    transition: transform 500ms ease;
+  }
+  .header .navBar {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    background-color: rgba(20, 23, 26, 0.4666666667);
+    transform-origin: top;
+    transform: scale(1, 0);
+  }
+  .header .navBar .navLists {
+    display: grid;
+  }
+  .header .navBar .navLists li {
+    align-items: center;
+    justify-content: center;
+  }
+  .header .navBar .navLists li:hover {
+    background-color: rgba(0, 170, 255, 0.5215686275);
+  }
+  .header .navBar .navLists li a::after {
+    all: unset;
+  }
+}
+@media (max-width: 768px) {
+  .header .logoDiv {
+    margin-left: 60px;
+  }
+  .header .logoDiv a h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+  }
+  .header .logoDiv a h1 span {
+    color: #00a8ff;
+  }
+  .header .menu-icon {
+    display: block;
+    font-size: 30px;
+    margin-right: 60px;
+    color: white;
+  }
+}
+@media (max-width: 567px) {
+  .header .logoDiv {
+    margin-left: 40px;
+  }
+  .header .logoDiv a h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+  }
+  .header .logoDiv a h1 span {
+    color: #00a8ff;
+  }
+  .header .menu-icon {
+    display: block;
+    font-size: 30px;
+    margin-right: 40px;
+    color: white;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

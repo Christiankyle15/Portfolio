@@ -1,0 +1,460 @@
+.Skill {
+  height: 100vh;
+  background-color: #14171a;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 140px 1fr;
+  gap: 12px;
+  position: relative;
+}
+.Skill .title {
+  margin: 0 100px;
+  display: flex;
+  padding-top: 60px;
+  align-items: center;
+  justify-content: center;
+}
+.Skill .title h1 {
+  font-size: 35px;
+  font-weight: 400;
+  color: white;
+}
+.Skill .title h1 span {
+  font-size: 35px;
+  font-weight: 600;
+  color: #01aaff;
+}
+.Skill .container {
+  margin: 0 100px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr;
+  gap: 40px;
+}
+.Skill .container .container-img {
+  align-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto 65px;
+}
+.Skill .container .container-img .title1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Skill .container .container-img .title1 h1 {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+  text-shadow: 0px 0px 8px #01aaff;
+}
+.Skill .container .container-img .title2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Skill .container .container-img .title2 h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  text-shadow: 0px 0px 8px #01aaff;
+}
+.Skill .container .container-img .img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Skill .container .container-img .img img {
+  max-width: 28rem;
+  width: 100%;
+  opacity: 0.6;
+}
+.Skill .container .container-img .technology {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.Skill .container .container-img .technology .icon1 {
+  width: 40px;
+  transition: width 300ms ease;
+}
+.Skill .container .container-img .technology .icon1:hover {
+  width: 60px;
+}
+.Skill .container .container-img .technology .icon2 {
+  width: 40px;
+  transition: width 300ms ease;
+}
+.Skill .container .container-img .technology .icon2:hover {
+  width: 60px;
+}
+.Skill .container .container-img .technology .icon3 {
+  width: 35px;
+  transition: width 300ms ease;
+}
+.Skill .container .container-img .technology .icon3:hover {
+  width: 50px;
+}
+.Skill .container .container-img .technology .icon4 {
+  width: 40px;
+  transition: width 300ms ease;
+}
+.Skill .container .container-img .technology .icon4:hover {
+  width: 60px;
+}
+.Skill .container .container-img .technology .icon5 {
+  width: 40px;
+  transition: width 300ms ease;
+}
+.Skill .container .container-img .technology .icon5:hover {
+  width: 60px;
+}
+.Skill .container .container-img .technology .icon6 {
+  width: 40px;
+  transition: width 300ms ease;
+}
+.Skill .container .container-img .technology .icon6:hover {
+  width: 60px;
+}
+.Skill .container .container-project {
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 265px 40px;
+  gap: 20px;
+}
+.Skill .container .container-project .prog1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-rows: 1fr 100px;
+}
+.Skill .container .container-project .prog1 .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+.Skill .container .container-project .prog1 .img a {
+  border: none;
+}
+.Skill .container .container-project .prog1 .img a img {
+  border: solid 3px #01aaff;
+  opacity: 0.5;
+  max-width: 295px;
+  width: 100%;
+  transform: scale(1);
+  transition: all 300ms ease;
+}
+.Skill .container .container-project .prog1 .img a img:hover {
+  border: none;
+  box-shadow: 0px 0px 10px #01aaff;
+  opacity: 1;
+  transform: scale(1.1);
+}
+.Skill .container .container-project .prog1 .pag {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.Skill .container .container-project .prog1 .pag h1 {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+.Skill .container .container-project .prog1 .pag .icon .icon1 {
+  width: 40px;
+  transition: width 300ms ease;
+}
+.Skill .container .container-project .prog1 .pag .icon .icon1:hover {
+  width: 60px;
+}
+.Skill .container .container-project .prog1 .pag .icon .icon2 {
+  width: 40px;
+  transition: width 300ms ease;
+}
+.Skill .container .container-project .prog1 .pag .icon .icon2:hover {
+  width: 60px;
+}
+.Skill .container .container-project .prog1 .pag .icon .icon3 {
+  width: 40px;
+  margin-left: 5px;
+  transition: width 300ms ease;
+}
+.Skill .container .container-project .prog1 .pag .icon .icon3:hover {
+  width: 60px;
+}
+.Skill .container .container-project .prog2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-rows: 1fr 100px;
+}
+.Skill .container .container-project .prog2 .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+.Skill .container .container-project .prog2 .img img {
+  border: solid 3px #01aaff;
+  opacity: 0.5;
+  max-width: 295px;
+  width: 100%;
+  transform: scale(1);
+  transition: all 300ms ease;
+}
+.Skill .container .container-project .prog2 .img img:hover {
+  border: none;
+  box-shadow: 0px 0px 10px #01aaff;
+  opacity: 1;
+  transform: scale(1.1);
+}
+.Skill .container .container-project .prog2 .pag {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.Skill .container .container-project .prog2 .pag h1 {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+.Skill .container .container-project .prog2 .pag .icon .icon5 {
+  width: 40px;
+  transition: width 300ms ease;
+  margin-right: 10px;
+}
+.Skill .container .container-project .prog2 .pag .icon .icon5:hover {
+  width: 60px;
+}
+.Skill .container .container-project .prog2 .pag .icon .icon4 {
+  width: 40px;
+  transition: width 300ms ease;
+}
+.Skill .container .container-project .prog2 .pag .icon .icon4:hover {
+  width: 60px;
+}
+.Skill .container .container-project .prog2 .pag .icon .icon3 {
+  width: 40px;
+  transition: width 300ms ease;
+}
+.Skill .container .container-project .prog2 .pag .icon .icon3:hover {
+  width: 60px;
+}
+.Skill .container .container-project .pag1 {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Skill .container .container-project .pag1 p {
+  color: white;
+}
+@media (max-width: 992px) {
+  .Skill .container .container-img .title1 h1 {
+    text-align: center;
+    font-size: 30px !important;
+  }
+  .Skill .container .container-img .img img {
+    max-width: 20rem;
+  }
+  .Skill .container .container-img .title2 h1 {
+    font-size: 1rem !important;
+  }
+  .Skill .container .container-img .technology .icon1 {
+    width: 35px;
+  }
+  .Skill .container .container-img .technology .icon1:hover {
+    width: 50px;
+  }
+  .Skill .container .container-img .technology .icon2 {
+    width: 35px;
+  }
+  .Skill .container .container-img .technology .icon2:hover {
+    width: 50px;
+  }
+  .Skill .container .container-img .technology .icon3 {
+    width: 35px;
+  }
+  .Skill .container .container-img .technology .icon3:hover {
+    width: 50px;
+  }
+  .Skill .container .container-img .technology .icon4 {
+    width: 35px;
+  }
+  .Skill .container .container-img .technology .icon4:hover {
+    width: 50px;
+  }
+  .Skill .container .container-img .technology .icon5 {
+    width: 35px;
+  }
+  .Skill .container .container-img .technology .icon5:hover {
+    width: 50px;
+  }
+  .Skill .container .container-img .technology .icon6 {
+    width: 35px;
+  }
+  .Skill .container .container-img .technology .icon6:hover {
+    width: 50px;
+  }
+  .Skill .container .container-project .prog1 .pag h1 {
+    font-size: 15px;
+  }
+  .Skill .container .container-project .prog1 .pag .icon .icon1 {
+    width: 30px;
+  }
+  .Skill .container .container-project .prog1 .pag .icon .icon1:hover {
+    width: 40px;
+  }
+  .Skill .container .container-project .prog1 .pag .icon .icon2 {
+    width: 30px;
+  }
+  .Skill .container .container-project .prog1 .pag .icon .icon2:hover {
+    width: 40px;
+  }
+  .Skill .container .container-project .prog1 .pag .icon .icon3 {
+    width: 30px;
+  }
+  .Skill .container .container-project .prog1 .pag .icon .icon3:hover {
+    width: 40px;
+  }
+  .Skill .container .container-project .prog2 .pag h1 {
+    font-size: 15px;
+  }
+  .Skill .container .container-project .prog2 .pag .icon .icon4 {
+    width: 30px;
+  }
+  .Skill .container .container-project .prog2 .pag .icon .icon4:hover {
+    width: 40px;
+  }
+  .Skill .container .container-project .prog2 .pag .icon .icon5 {
+    width: 30px;
+  }
+  .Skill .container .container-project .prog2 .pag .icon .icon5:hover {
+    width: 40px;
+  }
+  .Skill .container .container-project .pag1 p {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .Skill .container {
+    align-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+    grid-template-rows: 60px 400px;
+    gap: 0px;
+    margin: 0 50px;
+  }
+  .Skill .container .title {
+    margin: 0 100px;
+  }
+  .Skill .container .title h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+  }
+  .Skill .container .title h1 span {
+    font-size: 35px;
+    font-weight: 600;
+    color: #01aaff;
+  }
+  .Skill .container .container-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: 1/2;
+  }
+  .Skill .container .container-img .title1 h1 {
+    font-size: 30px !important;
+  }
+  .Skill .container .container-img .img {
+    display: none;
+  }
+  .Skill .container .container-img .img img {
+    display: none;
+  }
+  .Skill .container .container-img .title2 h1 {
+    font-size: 1rem !important;
+    display: none;
+  }
+  .Skill .container .container-img .technology {
+    display: none;
+  }
+  .Skill .container .container-img .technology .icon1 {
+    width: 35px;
+  }
+  .Skill .container .container-img .technology .icon2 {
+    width: 35px;
+  }
+  .Skill .container .container-img .technology .icon3 {
+    width: 35px;
+  }
+  .Skill .container .container-img .technology .icon3 {
+    width: 35px;
+  }
+  .Skill .container .container-img .technology .icon4 {
+    width: 35px;
+  }
+  .Skill .container .container-img .technology .icon5 {
+    width: 35px;
+  }
+  .Skill .container .container-img .technology .icon6 {
+    width: 35px;
+  }
+  .Skill .container .container-project {
+    grid-row: 2/3;
+  }
+  .Skill .container .container-project .prog1 .pag h1 {
+    font-size: 15px;
+  }
+  .Skill .container .container-project .prog1 .pag .icon .icon1 {
+    width: 30px;
+  }
+  .Skill .container .container-project .prog1 .pag .icon .icon1:hover {
+    width: 40px;
+  }
+  .Skill .container .container-project .prog1 .pag .icon .icon2 {
+    width: 30px;
+  }
+  .Skill .container .container-project .prog1 .pag .icon .icon2:hover {
+    width: 40px;
+  }
+  .Skill .container .container-project .prog1 .pag .icon .icon3 {
+    width: 30px;
+  }
+  .Skill .container .container-project .prog1 .pag .icon .icon3:hover {
+    width: 40px;
+  }
+  .Skill .container .container-project .prog2 .pag h1 {
+    font-size: 15px;
+  }
+  .Skill .container .container-project .prog2 .pag .icon .icon4 {
+    width: 30px;
+  }
+  .Skill .container .container-project .prog2 .pag .icon .icon4:hover {
+    width: 40px;
+  }
+  .Skill .container .container-project .prog2 .pag .icon .icon5 {
+    width: 30px;
+  }
+  .Skill .container .container-project .prog2 .pag .icon .icon5:hover {
+    width: 40px;
+  }
+  .Skill .container .container-project .pag1 p {
+    font-size: 13px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=Skill.css.map */

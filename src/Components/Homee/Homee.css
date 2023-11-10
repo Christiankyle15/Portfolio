@@ -1,0 +1,368 @@
+.Homee .container {
+  height: 100vh;
+  padding: 0;
+  background-color: #14171a;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 70px 1fr;
+}
+.Homee .container .container-text {
+  position: relative;
+  margin-left: 100px;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+.Homee .container .container-text .text h1 {
+  color: white;
+  font-size: 2.2rem;
+  margin: 0;
+}
+.Homee .container .container-text .text p {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0;
+}
+.Homee .container .container-text .text span {
+  color: #00a8ff;
+}
+.Homee .container .container-text .button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.Homee .container .container-text .button .download {
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 9px 20px;
+  background-color: #007ebd;
+  color: white;
+}
+.Homee .container .container-text .button .download i {
+  margin-left: 5px;
+}
+.Homee .container .container-text .button .download:hover {
+  box-shadow: 0px 0px 8px #028ace;
+  background-color: #028ace;
+}
+.Homee .container .container-text .button .contact {
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 9px 20px;
+  border: solid 2px #028ace;
+  color: white;
+}
+.Homee .container .container-text .button .contact:hover {
+  box-shadow: 0px 0px 8px #028ace;
+}
+.Homee .container .container-text .button .box1 {
+  padding: 0;
+  all: unset;
+}
+.Homee .container .container-text .button .box1 .icon1 {
+  font-size: 35px;
+  color: #00a8ff;
+}
+.Homee .container .container-text .button .box1 .icon1:hover {
+  text-shadow: 0px 0px 8px #028ace;
+}
+.Homee .container .container-text .button .box1:hover {
+  all: unset;
+}
+.Homee .container .container-text .button .box2:hover {
+  all: unset;
+}
+.Homee .container .container-text .button .box3 {
+  padding: 0;
+  all: unset;
+}
+.Homee .container .container-text .button .box3 .icon3 {
+  font-size: 35px;
+  color: #00a8ff;
+}
+.Homee .container .container-text .button .box3 .icon3:hover {
+  text-shadow: 0px 0px 8px #028ace;
+}
+.Homee .container .container-text .button .box3:hover {
+  all: unset;
+}
+.Homee .container .container-image {
+  margin-right: 100px;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Homee .container .container-image .img {
+  max-width: 32rem;
+  width: 100%;
+}
+@media (max-width: 1070px) {
+  .Homee .container-text .text h1 {
+    font-size: 2rem !important;
+  }
+  .Homee .container-text .text p {
+    font-size: 1.4rem !important;
+  }
+  .Homee .container-text .button .download {
+    font-weight: 500 !important;
+    font-size: 0.9rem !important;
+    padding: 9px 15px !important;
+  }
+  .Homee .container-text .button .download i {
+    margin-left: 5px;
+  }
+  .Homee .container-text .button .contact {
+    font-weight: 500 !important;
+    font-size: 0.9rem !important;
+    padding: 9px 15px !important;
+  }
+  .Homee .container-text .button .box1 .icon1 {
+    font-size: 30px !important;
+  }
+  .Homee .container-text .button .box3 .icon3 {
+    font-size: 30px !important;
+  }
+}
+@media (max-width: 992px) {
+  .Homee .container-text .text h1 {
+    font-size: 1.4rem !important;
+  }
+  .Homee .container-text .text p {
+    font-size: 1.2rem !important;
+  }
+  .Homee .container-text .button .download {
+    font-weight: 500 !important;
+    font-size: 0.7rem !important;
+    padding: 9px 15px !important;
+  }
+  .Homee .container-text .button .download i {
+    margin-left: 5px;
+  }
+  .Homee .container-text .button .contact {
+    font-weight: 500 !important;
+    font-size: 0.7rem !important;
+    padding: 9px 15px !important;
+  }
+  .Homee .container-text .button .box1 .icon1 {
+    font-size: 30px !important;
+  }
+  .Homee .container-text .button .box3 .icon3 {
+    font-size: 30px !important;
+  }
+  .Homee .container-image .img {
+    max-width: 25rem !important;
+    width: 100%;
+  }
+}
+@media (max-width: 793px) {
+  .Homee .container-text .text h1 {
+    font-size: 1.4rem !important;
+  }
+  .Homee .container-text .text p {
+    font-size: 1.2rem !important;
+  }
+  .Homee .container-text .button .download {
+    font-weight: 500 !important;
+    font-size: 0.7rem !important;
+    padding: 9px 13px !important;
+  }
+  .Homee .container-text .button .download i {
+    margin-left: 5px;
+  }
+  .Homee .container-text .button .contact {
+    font-weight: 500 !important;
+    font-size: 0.7rem !important;
+    padding: 9px 13px !important;
+  }
+}
+@media (max-width: 768px) {
+  .Homee .container-text {
+    margin: 0 100px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    grid-column: 1/3 !important;
+  }
+  .Homee .container-text .text {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .Homee .container-text .text h1 {
+    font-size: 1.7rem !important;
+  }
+  .Homee .container-text .text p {
+    font-size: 1.4rem !important;
+  }
+  .Homee .container-text .button .download {
+    font-weight: 500 !important;
+    font-size: 0.8rem !important;
+    padding: 9px 15px !important;
+  }
+  .Homee .container-text .button .download i {
+    margin-left: 5px;
+  }
+  .Homee .container-text .button .contact {
+    font-weight: 500 !important;
+    font-size: 0.8rem !important;
+    padding: 9px 15px !important;
+  }
+  .Homee .container-text .button .box1 .icon1 {
+    font-size: 30px !important;
+  }
+  .Homee .container-text .button .box3 .icon3 {
+    font-size: 30px !important;
+  }
+  .Homee .container-image {
+    display: none !important;
+  }
+}
+@media (max-width: 567px) {
+  .Homee .container-text {
+    position: relative;
+  }
+  .Homee .container-text .text h1 {
+    text-align: center;
+    font-size: 1.5rem !important;
+  }
+  .Homee .container-text .text p {
+    text-align: center;
+    font-size: 1rem !important;
+  }
+  .Homee .container-text .button {
+    position: relative;
+  }
+  .Homee .container-text .button .download {
+    text-align: center;
+    font-weight: 500 !important;
+    font-size: 0.6rem !important;
+    padding: 9px 15px !important;
+  }
+  .Homee .container-text .button .download i {
+    margin-left: 5px;
+  }
+  .Homee .container-text .button .contact {
+    text-align: center;
+    font-weight: 500 !important;
+    font-size: 0.6rem !important;
+    padding: 9px 15px !important;
+  }
+  .Homee .container-text .button .box1 {
+    position: absolute !important;
+    margin-top: 80px !important;
+    margin-right: 20px !important;
+  }
+  .Homee .container-text .button .box1 .icon1 {
+    font-size: 25px !important;
+  }
+  .Homee .container-text .button .box3 {
+    position: absolute !important;
+    margin-top: 80px !important;
+    margin-left: 40px !important;
+  }
+  .Homee .container-text .button .box3 .icon3 {
+    font-size: 25px !important;
+  }
+}
+@media (max-width: 404px) {
+  .Homee .container-text {
+    position: relative;
+  }
+  .Homee .container-text .text h1 {
+    text-align: center;
+    font-size: 1.5rem !important;
+  }
+  .Homee .container-text .text p {
+    text-align: center;
+    font-size: 1rem !important;
+  }
+  .Homee .container-text .button .download {
+    text-align: center;
+    font-weight: 500 !important;
+    font-size: 0.6rem !important;
+    padding: 7px 13px !important;
+  }
+  .Homee .container-text .button .download i {
+    margin-left: 5px;
+  }
+  .Homee .container-text .button .contact {
+    text-align: center;
+    font-weight: 500 !important;
+    font-size: 0.6rem !important;
+    padding: 7px 13px !important;
+  }
+  .Homee .container-text .button .box1 {
+    position: absolute !important;
+    margin-top: 80px !important;
+    margin-right: 20px !important;
+  }
+  .Homee .container-text .button .box1 .icon1 {
+    font-size: 25px !important;
+  }
+  .Homee .container-text .button .box3 {
+    position: absolute !important;
+    margin-top: 80px !important;
+    margin-left: 40px !important;
+  }
+  .Homee .container-text .button .box3 .icon3 {
+    font-size: 25px !important;
+  }
+}
+@media (max-width: 396px) {
+  .Homee .container-text {
+    position: relative;
+  }
+  .Homee .container-text .text h1 {
+    text-align: center;
+    font-size: 1.5rem !important;
+  }
+  .Homee .container-text .text p {
+    text-align: center;
+    font-size: 1rem !important;
+  }
+  .Homee .container-text .button .download {
+    text-align: center;
+    font-weight: 500 !important;
+    font-size: 0.5rem !important;
+    padding: 7px 9px !important;
+  }
+  .Homee .container-text .button .download i {
+    margin-left: 5px;
+  }
+  .Homee .container-text .button .contact {
+    text-align: center;
+    font-weight: 500 !important;
+    font-size: 0.5rem !important;
+    padding: 7px 9px !important;
+  }
+  .Homee .container-text .button .box1 {
+    position: absolute !important;
+    margin-top: 80px !important;
+    margin-right: 20px !important;
+  }
+  .Homee .container-text .button .box1 .icon1 {
+    font-size: 25px !important;
+  }
+  .Homee .container-text .button .box3 {
+    position: absolute !important;
+    margin-top: 80px !important;
+    margin-left: 40px !important;
+  }
+  .Homee .container-text .button .box3 .icon3 {
+    font-size: 25px !important;
+  }
+}/*# sourceMappingURL=Homee.css.map */

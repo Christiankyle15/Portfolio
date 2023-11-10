@@ -1,0 +1,56 @@
+.Footer {
+  background-color: #1d2125;
+}
+.Footer .Container {
+  height: 15vh;
+  margin: 0 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.Footer .Container .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Footer .Container .text p {
+  color: #5f5f5f;
+  font-weight: 400;
+  font-size: 17px;
+}
+.Footer .Container .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Footer .Container .logo a h1 {
+  color: white;
+}
+.Footer .Container .logo a h1 span {
+  color: #0382c2;
+}
+@media (max-width: 992px) {
+  .Footer .Container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .Footer .Container .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Footer .Container .text p {
+    color: #5f5f5f;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  .Footer .Container .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Footer .Container .logo a h1 {
+    color: white;
+  }
+  .Footer .Container .logo a h1 span {
+    color: #0382c2;
+  }
+}/*# sourceMappingURL=Footer.css.map */
